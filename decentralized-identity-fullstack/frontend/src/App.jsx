@@ -7,7 +7,7 @@ import {
   Shield, FileCheck2, KeyRound
 } from 'lucide-react';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+const API = '';
 
 async function api(path, options = {}, token = '') {
   const headers = { ...(options.headers || {}) };
