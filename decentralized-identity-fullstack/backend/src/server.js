@@ -1036,8 +1036,21 @@ app.get(
   }
 );
 
-app.listen(PORT, () => {
-  console.log(`Backend running at http://localhost:${PORT}`);
+// Serve React frontend
+app.use(express.static(FRONTEND_DIST));
+
+// React routing fallback
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api/')) {
+    return next();
+  }
+
+  res.sendFile(join(FRONTEND_DIST, 'index.html'));
+});
+
+// Start server
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`VeriChain running on port ${PORT}`);
 });
 // AUTHORITY: Approve or reject a student document
 app.patch(
