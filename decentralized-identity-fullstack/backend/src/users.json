@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7048bfc6-114c-454d-9f3c-d55eed66bf96",
+    "name": "Test Student",
+    "email": "teststudent@example.com",
+    "passwordHash": "$2b$12$37ZrdjWnvOHvD.wKLAxzZeG0uiAvIihcciKfGYlo9FqVyNYhe7q3G",
+    "role": "student",
+    "createdAt": "2026-11-02T05:04:11.581Z"
+  },
+  {
+    "id": "5dbd3054-7a19-4d5f-9b9b-4cacfc473991",
+    "name": "VeriChain Admin",
+    "email": "sreepooja530@gmail.com",
+    "passwordHash": "$2b$12$nsi/iSHmXHidPsJshJ/dieqpAi8acv2Gnq6d8wXq4VG2QEv2sS3Hy",
+    "role": "admin",
+    "createdAt": "2026-11-02T06:01:13.221Z"
+  },
+  {
+    "id": "89531def-3b65-4092-ba00-09ff2b9ce537",
+    "name": "KL University Authority",
+    "email": "authority@verichain.local",
+    "passwordHash": "$2b$12$FWLFXv3/RZ92HeT9ZZR2OuIyBfAvmlLfaMFZrGVnWVksQM8qwW0yS",
+    "role": "authority",
+    "createdAt": "2026-11-02T06:06:33.522Z",
+    "createdBy": "5dbd3054-7a19-4d5f-9b9b-4cacfc473991"
+  },
+  {
+    "id": "378dd308-b59e-4dd6-9e23-abbff06d1f85",
+    "name": "ABC Verification Institution",
+    "email": "institution@verichain.local",
+    "passwordHash": "$2b$12$hYNO87G.2ROo3d0S2JW6fuK1Rb8He50mv/3ZrmKsTPgULx0pBopJK",
+    "role": "institution",
+    "createdAt": "2026-11-02T06:07:24.519Z",
+    "createdBy": "5dbd3054-7a19-4d5f-9b9b-4cacfc473991"
+  },
+  {
+    "id": "c1c9a75e-3df2-4aef-9fd9-e40b300eec16",
+    "name": "sree pooja",
+    "email": "user1@gmail.com",
+    "passwordHash": "$2b$12$QVlOCAnmjtfiF7GS6BgBWe3E7zJbnuU0Ib1k/vlODXEH3Dv87uP8m",
+    "role": "student",
+    "createdAt": "2026-11-02T07:06:48.769Z"
+  },
+  {
+    "id": "8a9c5dc7-38aa-4a5b-9e45-2f614708fc0f",
+    "name": "user2",
+    "email": "user2@gmail.com",
+    "passwordHash": "$2b$12$euhfGJqM7tLAaoJvRcDateUx7CH/FcBgh4pFDp8Kjn.3Ftu9zApH2",
+    "role": "student",
+    "createdAt": "2026-11-03T02:42:28.163Z"
+  }
+]
