@@ -28,6 +28,7 @@ const ACCESS_REQUEST_DB_FILE = join(__dirname, 'accessRequests.json');
 const AUDIT_LOG_DB_FILE = join(__dirname, 'auditLogs.json');
 
 const app = express();
+const FRONTEND_DIST = join(__dirname, '../../frontend/dist');
 const PORT = process.env.PORT || 4000;
 
 // ------------------------------------
